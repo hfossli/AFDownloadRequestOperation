@@ -37,7 +37,7 @@
  
  If the target is a directory, we use the last part of the URL as a default file name.
  */
-@property (strong) NSString *targetPath;
+@property (copy) NSString *targetPath;
 
 /**
  A Boolean value that indicates if we should allow a downloaded file to overwrite
